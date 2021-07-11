@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    private Rigidbody2D rigid;
+    public Rigidbody2D rigid;
     private bool move;
     public Bullet fab;
     public ParticleSystem beam;
@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     public Text text;
     void Start()
     {
+        InvokeRepeating(nameof(Add), 5.0f, 5.0f);
         rigid = GetComponent<Rigidbody2D>();
         this.gameObject.SetActive(false);
     }
@@ -80,7 +81,6 @@ public class Player : MonoBehaviour
             this.beam.transform.position = this.transform.position;
             this.beam.transform.rotation = this.transform.rotation;
             this.beam.Play();
-            Invoke(nameof(Add), 5.0f);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -95,6 +95,7 @@ public class Player : MonoBehaviour
     }
     void Add()
     {
+        if(ammo<3)
         this.ammo++;
         this.text.text = "Ammo: ";
         for (int i = 0; i < ammo; i++)

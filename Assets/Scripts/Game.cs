@@ -7,8 +7,8 @@ public class Game : MonoBehaviour
 {
     public Text text,message;
     public ParticleSystem boom;
-    public Player player;
-    public Spawner spawner;
+    public Player player,second_player;
+    public Spawner spawner, second_spawner;
     public int score = 0, hs = 0;
     public void EnemyDestroyed()
     {
@@ -50,9 +50,28 @@ public class Game : MonoBehaviour
         {
             if (!spawner.gameOn)
             {
+                second_player.gameObject.SetActive(false);
+                second_spawner.gameOn = false;
                 spawner.gameOn = true;
                 Respawn();
             }
+        }
+        if (Input.GetKeyDown(KeyCode.Tab) && spawner.gameOn)
+        {
+            second_player.gameObject.SetActive(true);
+            second_spawner.gameOn = true;
+            second_player.transform.position = player.transform.position;
+            second_player.transform.rotation = player.transform.rotation;
+            second_player.rigid.velocity = player.rigid.velocity;
+            second_player.rigid.angularVelocity = player.rigid.angularVelocity;
+            var buff_player = second_player;
+            second_player = player;
+            player = buff_player;
+            var buff_spawner = second_spawner;
+            second_spawner = spawner;
+            spawner = buff_spawner;
+            second_player.gameObject.SetActive(false);
+            second_spawner.gameOn = false;
         }
     }
     void Respawn()
