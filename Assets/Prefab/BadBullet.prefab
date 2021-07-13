@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2484318740812614276}
   - component: {fileID: 4980198208243950047}
   - component: {fileID: -6194303425819643126}
-  - component: {fileID: -8721578670163293702}
+  - component: {fileID: 6771686317078804869}
   m_Layer: 11
   m_Name: BadBullet
   m_TagString: BadBullet
@@ -132,7 +132,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-8721578670163293702
+--- !u!114 &6771686317078804869
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8722055411298647422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbc02b1553a4816439ba80d0069209fe, type: 3}
+  m_Script: {fileID: -2094560717, guid: ef891dafd2e742d498e53f24c1dbb775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1000

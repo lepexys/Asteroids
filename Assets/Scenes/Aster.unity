@@ -285,18 +285,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 168387479}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19713e209cc2b294f9f0eb23b22fb6f6, type: 3}
+  m_Script: {fileID: 1536045758, guid: ef891dafd2e742d498e53f24c1dbb775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gameOn: 0
-  fab: {fileID: -6202569005502233792, guid: 6613e62b5af18b3418850c9944423ec1, type: 3}
-  enemy_fab: {fileID: 1121625944572257497, guid: ce8576374c8234d488996d24b53418a3, type: 3}
+  fab: {fileID: -4487572436940108894, guid: 6613e62b5af18b3418850c9944423ec1, type: 3}
+  enemy_fab: {fileID: 7591756711761000822, guid: ce8576374c8234d488996d24b53418a3, type: 3}
   trajectoryVariance: 10
-  spawnRate: 2
-  spawnEnemyRate: 3
+  spawnRate: 1
+  spawnEnemyRate: 5
   spawnAmount: 2
   total: 0
-  distance: 20
+  distance: 15
 --- !u!4 &168387481
 Transform:
   m_ObjectHideFlags: 0
@@ -337,10 +337,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 357176639}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78571f2fec564f34685ababb09bf27f2, type: 3}
+  m_Script: {fileID: -1037789527, guid: ef891dafd2e742d498e53f24c1dbb775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 2046740932}
+  text: {fileID: 1916645541}
   message: {fileID: 23143490}
   boom: {fileID: 1016342872}
   player: {fileID: 504128528}
@@ -392,13 +392,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 504128527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e22d3da71e14aae499ef02eb6bc22270, type: 3}
+  m_Script: {fileID: 128645374, guid: ef891dafd2e742d498e53f24c1dbb775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rigid: {fileID: 0}
-  fab: {fileID: 4738320946534432553, guid: 62e7707c01d2e3243a2b777631ee77f7, type: 3}
+  fab: {fileID: -3781474696348440204, guid: 62e7707c01d2e3243a2b777631ee77f7, type: 3}
   beam: {fileID: 1901139020}
-  ray_fab: {fileID: 8037912489258625109, guid: 33034f4a8ae43a748ab7ad25094d42ef, type: 3}
+  ray_fab: {fileID: 1645419379514959175, guid: 33034f4a8ae43a748ab7ad25094d42ef, type: 3}
   ray: {fileID: 0}
   movespeed: 2
   turnspeed: 0.4
@@ -11012,18 +11012,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2066499432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19713e209cc2b294f9f0eb23b22fb6f6, type: 3}
+  m_Script: {fileID: 1536045758, guid: ef891dafd2e742d498e53f24c1dbb775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gameOn: 0
-  fab: {fileID: -6202569005502233792, guid: 1520324e2b024ab4d85d11addcf2b2b3, type: 3}
-  enemy_fab: {fileID: 1121625944572257497, guid: 849cdc2870b296b4c83486b5f488d607, type: 3}
+  fab: {fileID: 1556989813044695904, guid: 1520324e2b024ab4d85d11addcf2b2b3, type: 3}
+  enemy_fab: {fileID: 638985129366339134, guid: 849cdc2870b296b4c83486b5f488d607, type: 3}
   trajectoryVariance: 10
-  spawnRate: 2
-  spawnEnemyRate: 3
+  spawnRate: 1
+  spawnEnemyRate: 5
   spawnAmount: 2
   total: 0
-  distance: 20
+  distance: 15
 --- !u!4 &2066499434
 Transform:
   m_ObjectHideFlags: 0
@@ -11117,13 +11117,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2112378295}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e22d3da71e14aae499ef02eb6bc22270, type: 3}
+  m_Script: {fileID: 128645374, guid: ef891dafd2e742d498e53f24c1dbb775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rigid: {fileID: 0}
-  fab: {fileID: 4738320946534432553, guid: 3b214e88d738ae74faf5a82636cba395, type: 3}
+  fab: {fileID: 724259190797504004, guid: 3b214e88d738ae74faf5a82636cba395, type: 3}
   beam: {fileID: 1901139020}
-  ray_fab: {fileID: 8037912489258625109, guid: b9396cc9e03e76a41a1f7e09c42369f3, type: 3}
+  ray_fab: {fileID: -4548358792458312042, guid: b9396cc9e03e76a41a1f7e09c42369f3, type: 3}
   ray: {fileID: 0}
   movespeed: 2
   turnspeed: 0.4

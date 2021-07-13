@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1018116218701925753}
   - component: {fileID: 1018116218701925752}
   - component: {fileID: 1018116218701925755}
-  - component: {fileID: 8037912489258625109}
+  - component: {fileID: 1645419379514959175}
   m_Layer: 7
   m_Name: Ray
   m_TagString: Ray
@@ -132,7 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.5}
   m_EdgeRadius: 0
---- !u!114 &8037912489258625109
+--- !u!114 &1645419379514959175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1018116218701925754}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aa9468be0e34664ab1e0215553660a5, type: 3}
+  m_Script: {fileID: -1342684107, guid: ef891dafd2e742d498e53f24c1dbb775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   lifetime: 0.5
